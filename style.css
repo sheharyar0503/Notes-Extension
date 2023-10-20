@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  padding: 20px;
+  margin: 0;
+  background-color: #242424;
+  min-width: 330px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+html {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+h1 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.welcome-text {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  color: rgb(180, 180, 180);
+}
+
+input {
+  border: none;
+  background-color: #f1faee;
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#add-btn {
+  padding: 5px;
+  border: none;
+  margin-left: -5px;
+  width: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  background-color: #57ab56;
+  color: #f1faee;
+}
+
+#delete-btn {
+  padding: 5px;
+  border: none;
+  width: 80px;
+  background-color: #e63946;
+  color: #f1faee;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.notes {
+  background-color: #f1faee;
+  padding: 5px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.notes p {
+  font-size: 14px;
+  font-style: italic;
+  color: #457b9d;
+}
+
+li {
+  font-weight: 500;
+  color: #1d3557;
+  margin-block: 10px;
+}
+
+ol {
+  padding-left: 20px;
+  min-height: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+ol > li::marker {
+  font-weight: 600;
+  color: #e63946;
+}
+
+.delete-btn {
+  color: #e63946;
+  cursor: pointer;
+  font-size: 24px;
+}
