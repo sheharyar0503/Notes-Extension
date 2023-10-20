@@ -12,3 +12,5 @@ The Notes Extension is a powerful Google Chrome extension that enhances your bro
 - Whether you need to jot down ideas, save research findings, or keep track of important details, the Notes Extension is your go-to tool for efficient note-taking on the fly.
 
 Feel free to explore the repository to dive into the development structure, code implementation, and potential customization options. Your feedback, contributions, and suggestions are highly appreciated as I strive to improve the functionality and user experience of the Notes Extension.
+
+# [Click To Visit](https://sheharyar0503.github.io/Notes-Extension/index.html)
